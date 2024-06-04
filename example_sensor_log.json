@@ -22,33 +22,53 @@
             "seconds_from_initial": 30,
             "event_type": "Animal Detection",
             "object_id": "b1e8d5a7-2e27-47c4-8227-38f3c1b65056",
+            "object_type": "Deer",
             "event_position": {
                 "x": 100,
                 "y": 200
             },
-            "event_data": "Deer detected",
+            "event_data": {
+                "species": "Mule Deer",
+                "count": 3,
+                "direction": "Northeast",
+                "speed": 10
+            },
             "checksum": "8a7a63f2d8e1af3a98a42f91b75c7d76cb134d20c25d0c0e7a9f4722f0af71a7"
         },
         {
             "seconds_from_initial": 60,
             "event_type": "Hunter Arrival",
             "object_id": "e7f52e2d-512f-4a4e-b8b0-50b65e5b0d97",
+            "object_type": "Hunter",
             "event_position": {
                 "x": 150,
                 "y": 250
             },
-            "event_data": "Hunter with gun spotted",
+            "event_data": {
+                "direction": "Southwest",
+                "speed": 5,
+                "attributes": {
+                    "gun": true,
+                    "camouflage": true
+                }
+            },
             "checksum": "7c7e5a8a3d24d6a6e5b56e2d8b3c1d8e5a7f52e2d4b4f4a5d7b4c4e6e5b4a7f5"
         },
         {
             "seconds_from_initial": 120,
             "event_type": "Animal Wounded",
             "object_id": "c2f52e2d-512f-4a4e-b8b0-50b65e5b0d98",
+            "object_type": "Deer",
             "event_position": {
                 "x": 120,
                 "y": 220
             },
-            "event_data": "Wounded deer",
+            "event_data": {
+                "species": "Mule Deer",
+                "condition": "Wounded",
+                "direction": "Northeast",
+                "speed": 3
+            },
             "checksum": "2f7e5a8a3d24d6a6e5b56e2d8b3c1d8e5a7f52e2d4b4f4a5d7b4c4e6e5b4a7f2"
         }
     ],

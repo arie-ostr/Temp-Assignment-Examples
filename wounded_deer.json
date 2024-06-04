@@ -1,0 +1,54 @@
+{
+    "gw_node_id": "gw_001",
+    "aggregation_time": "2022-04-12 21:00:00",
+    "alert_id": "alert_0001",
+    "alert_type": "Wounded Animal Detected",
+    "timestamp": "2022-04-12 20:49:32",
+    "sensor_events": [
+        {
+            "sensor_id": "sensor_12345",
+            "event_id": "event_001",
+            "object_id": "c2f52e2d-512f-4a4e-b8b0-50b65e5b0d98",
+            "object_type": "Deer",
+            "event_data": {
+                "species": "Mule Deer",
+                "condition": "Wounded",
+                "direction": "Northeast",
+                "speed": 3
+            },
+            "coordinates": {
+                "latitude": 34.052235,
+                "longitude": -118.243683
+            }
+        },
+        {
+            "sensor_id": "sensor_54321",
+            "event_id": "event_002",
+            "object_id": "c2f52e2d-512f-4a4e-b8b0-50b65e5b0d98",
+            "object_type": "Deer",
+            "event_data": {
+                "species": "Mule Deer",
+                "condition": "Wounded",
+                "direction": "Northeast",
+                "speed": 3
+            },
+            "coordinates": {
+                "latitude": 34.052240,
+                "longitude": -118.243685
+            }
+        }
+    ],
+    "matched_objects": [
+        {
+            "object_id": "c2f52e2d-512f-4a4e-b8b0-50b65e5b0d98",
+            "object_type": "Deer",
+            "condition": "Wounded",
+            "last_known_location": {
+                "latitude": 34.052235,
+                "longitude": -118.243683
+            },
+            "last_known_speed": 3
+        }
+    ],
+    "action_required": "Dispatch veterinary team to location"
+}

@@ -1,0 +1,59 @@
+{
+    "initial_event": {
+        "sensor_id": "sensor_12345",
+        "initial_time": "2022-04-12 19:49:32",
+        "coordinates": {
+            "latitude": 34.052235,
+            "longitude": -118.243683
+        },
+        "camera_params": {
+            "angle": 45,
+            "pitch": 30,
+            "fov": 90
+        },
+        "connection_data": {
+            "gw_network_data": "network_data_here",
+            "latency": 50,
+            "health_check": "healthy"
+        }
+    },
+    "events": [
+        {
+            "seconds_from_initial": 30,
+            "event_type": "Animal Detection",
+            "object_id": "b1e8d5a7-2e27-47c4-8227-38f3c1b65056",
+            "event_position": {
+                "x": 100,
+                "y": 200
+            },
+            "event_data": "Deer detected",
+            "checksum": "8a7a63f2d8e1af3a98a42f91b75c7d76cb134d20c25d0c0e7a9f4722f0af71a7"
+        },
+        {
+            "seconds_from_initial": 60,
+            "event_type": "Hunter Arrival",
+            "object_id": "e7f52e2d-512f-4a4e-b8b0-50b65e5b0d97",
+            "event_position": {
+                "x": 150,
+                "y": 250
+            },
+            "event_data": "Hunter with gun spotted",
+            "checksum": "7c7e5a8a3d24d6a6e5b56e2d8b3c1d8e5a7f52e2d4b4f4a5d7b4c4e6e5b4a7f5"
+        },
+        {
+            "seconds_from_initial": 120,
+            "event_type": "Animal Wounded",
+            "object_id": "c2f52e2d-512f-4a4e-b8b0-50b65e5b0d98",
+            "event_position": {
+                "x": 120,
+                "y": 220
+            },
+            "event_data": "Wounded deer",
+            "checksum": "2f7e5a8a3d24d6a6e5b56e2d8b3c1d8e5a7f52e2d4b4f4a5d7b4c4e6e5b4a7f2"
+        }
+    ],
+    "final_event": {
+        "event_type": "Log Interruption",
+        "timestamp": "2022-04-12 20:49:32"
+    }
+}

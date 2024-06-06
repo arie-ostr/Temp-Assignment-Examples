@@ -1,0 +1,21 @@
+{
+    "events": [
+      {
+        "object_id": "123e4567-e89b-12d3-a456-426614174000",
+        "timestamp": "2024-06-06T14:20:00Z",
+        "event": "animal_moves",
+        "data": {
+          "sensor_id": "sensor_10",
+          "animal_type": "deer",
+          "movement_pattern": "northwest",
+          "coordinates": {
+            "latitude_start": 34.052235,
+            "longitude_start": -118.243683,
+            "latitude_end": 34.053000,
+            "longitude_end": -118.245000
+          },
+          "time_intervals": ["14:00", "14:05", "14:10", "14:15", "14:20"]
+        }
+      }
+    ]
+  }
